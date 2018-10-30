@@ -21,7 +21,7 @@ end
 
 $newnumber = 0, 
 def take_a_number(katz_deli,)
-  $newnumber + 1
+  $newnumber += 1
    katz_deli.push($newnumber+1)
   
     puts ". You are number #{katz_deli.length} in line." 
